@@ -26,7 +26,7 @@ function filterForQA(logs) {
 
 function filterByName(chores, name) {
   return chores.filter((chore) => {
-    return chore.doneBy === 'Jamal'
+    return chore.doneBy === name
   })
 }
 
