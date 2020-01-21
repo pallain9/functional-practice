@@ -1,8 +1,3 @@
-function changeTaskOwner(chore) {
-
-}
-
-
 
 function totalTimeSpent(chore) {
   const timeSpent = chore.minutes * chore.timesDone
@@ -29,13 +24,11 @@ function filterByName(chores, name) {
     return chore.doneBy === name
   })
 }
+//'updates the assignee of tasks to be someone else'
 
-function assignTasks(tasks, from, to) {
-  return tasks
-}
 
 module.exports = {
-  assignTasks,
+  //assignTasks,
   calculateTimeSpent,
   filterByName,
   filterForQA,
